@@ -1,0 +1,11 @@
+# Eclipse build output
+/bin/
+
+# Generated data files (created each time GenerateInfoFiles runs)
+products.txt
+salesmen.txt
+sales_*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
