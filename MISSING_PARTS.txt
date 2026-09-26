@@ -1,0 +1,19 @@
+MISSING PARTS FOR FINAL DELIVERY (ENTREGA 3 - SEMANAS 7-8)
+
+This document outlines the pending features and improvements that will be implemented in the final delivery of the project, based on the "Extra" requirements and final submission guidelines of the module.
+
+1. Advanced Exception Handling and Data Validation:
+   - Current status: The program assumes all input files are perfectly formatted.
+   - Pending: Implement robust validation to detect and handle erroneous formats or incoherent information (e.g., negative quantities, non-existent product IDs, or malformed lines) without crashing the application.
+
+2. Support for Multiple Sales Files per Salesman:
+   - Current status: The logic processes exactly one `sales_<id>.txt` file per salesman.
+   - Pending: Enhance the file processing logic to aggregate sales data from multiple files belonging to the same salesman document number.
+
+3. Object Serialization Support:
+   - Current status: The project exclusively reads and writes plain text files (.txt/.csv).
+   - Pending: Implement Java Object Serialization to save and load the state of the Store, Salesmen, and Products to `.ser` binary files, demonstrating knowledge of alternative persistence methods.
+
+4. Final Documentation and Conclusion:
+   - Current status: Preliminary version of the codebase.
+   - Pending: Add the mandatory `conclusion.txt` file summarizing lessons learned, professional applications of the acquired skills, and difficulties encountered during the development of the project.
